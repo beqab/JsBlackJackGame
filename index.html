@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>	
+	<style type="text/css">
+	 #start{
+         float: left;
+	}
+	#add{
+		display: none;
+	}
+	#stop{
+		display: none;
+	}
+	
+	#add, #stop, #start {
+
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center; 
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+   
+	}
+	#crupie{
+		text-align: center;
+	}
+
+	#crupie img{
+       width: 98px;
+       height: 143px;
+	}
+	#container {
+
+		    /* width: 1400px; */
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+
+	}
+    body{
+    	background: url('https://ie1-gfebf.cdnppb.net/mexchangeblackjack/turbo/17/assets/gameView/tableBackground.png?v17')  no-repeat ;
+    	background-size:cover;
+    	color: #fff;
+    	font-size: 20px;
+    	font-weight: bold;
+    	overflow: hidden;
+
+    }
+	</style>
+</head>
+<body>
+	<div id="crupie">
+	<div id="dilersum"></div>
+</div>
+<div id="container">
+
+<div id="crupie">
+	
+</div>
+
+<div id="gamer">
+	
+</div>	
+
+<div id="sum">
+	
+</div>	
+
+<button onclick="creatcard()" id="add"> Add Cards</button>
+<button onclick="test()" id="stop">stop</button>
+<button id='start'> start game</button>
+
+<script type="text/javascript">
+	
+	var cards = new Array("1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png","21.png","22.png","23.png","24.png","25.png","26.png","27.png","28.png","29.png","30.png","31.png","32.png","33.png","34.png","35.png","36.png","37.png","38.png","39.png","40.png","41.png","42.png","43.png","44.png","45.png","46.png","47.png","48.png","49.png","50.png","51.png","52.png");
+	
+	var cardsScore = new Array(11,6,7,8,9,10,10,10,10,11,6,7,8,9,10,10,10,10,11,6,7,8,9,10,10,10,10,8,10,10,7,9,10,10,10,6,2,3,4,5,2,3,4,5,5,3,4,2,3,4,2,5);
+</script>
+</div>
